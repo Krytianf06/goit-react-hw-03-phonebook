@@ -1,0 +1,27 @@
+.item {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.item:nth-child(2n) {
+  background-color: rgb(237, 184, 241);
+}
+
+.item:nth-child(2n + 1) {
+  background-color: rgb(253, 214, 214);
+}
+
+.name {
+  font-weight: 500;
+}
+
+.tel {
+  color: rgb(45, 33, 109);
+  font-weight: 500;
+}

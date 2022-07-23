@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.input {
+  flex-grow: 1;
+  margin-left: 12px;
+}
